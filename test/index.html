@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Assessment</title>
+   <!-- FontAwesome-cdn include -->
+   <link rel="stylesheet" href="assets/css/all.min.css">
+   <!-- Google fonts include -->
+   <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+   <!-- Bootstrap-css include -->
+   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+   <!-- Animate-css include -->
+   <link rel="stylesheet" href="assets/css/animate.min.css">
+   <!-- Main-StyleSheet include -->
+   <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+   <div class="wrapper">
+      <div class="container-fluid">
+         <div class="row text-center">
+            <!-- Circles which indicates the steps of the form: -->
+            <div class="col step_progress d-flex d-none d-sm-block">
+               <span class="step bg-white rounded-pill active"></span>
+               <span class="step bg-white rounded-pill"></span>
+               <span class="step bg-white rounded-pill"></span>
+               <span class="step bg-white rounded-pill"></span>
+               <span class="step bg-white rounded-pill"></span>
+               <span class="step bg-white rounded-pill"></span>
+               <span class="step bg-white rounded-pill"></span>
+               <span class="step bg-white rounded-pill"></span>
+               <span class="step bg-white rounded-pill"></span>
+               <span class="step bg-white rounded-pill"></span>
+               <span class="step bg-white rounded-pill"></span>
+               <span class="step bg-white rounded-pill"></span>
+               <span class="step bg-white rounded-pill"></span>
+               <span class="step bg-white rounded-pill"></span>
+               <span class="step bg-white rounded-pill"></span>
+               <span class="step bg-white rounded-pill"></span>
+               <span class="step bg-white rounded-pill"></span>
+               <span class="step bg-white rounded-pill"></span>
+               <span class="step bg-white rounded-pill"></span>
+               <span class="step bg-white rounded-pill"></span>
+            </div>
+         </div>
+      </div>
+      <div class="container">
+         <form class="multisteps_form position-relative" id="wizard" method="POST" action="#">
+            <!------------------------- Step-1 ----------------------------->
+            <div class="multisteps_form_panel">
+               <!-- Form-content -->
+               <span class="question_number text-uppercase d-flex justify-content-center align-items-center">Question 1/20</span>
+               <h1 class="question_title text-center">How confident do you feel in your ability to communicate effectively in your relationships?</h1>
+               <!-- Form-items -->
+               <div class="form_items d-flex justify-content-center">
+                  <ul class="ps-0">
+                     <li class="step_1 rounded-pill bg-white text-start animate__animated animate__fadeInRight animate_50ms">
+                        <input type="radio" id="opt_1" name="stp_1_select_option" value="A place where people don’t question my authority">
+                        <label for="opt_1">Very confident</label>
+                     </li>
+                     <li class="step_1 rounded-pill bg-white animate__animated animate__fadeInRight animate_100ms">
+                        <input type="radio" id="opt_2" name="stp_1_select_option" value="Where ever my best friends are, that’s where i want to be">
+                        <label for="opt_2">Somewhat confident</label>
+                     </li>
+                     <li class="step_1 rounded-pill bg-white animate__animated animate__fadeInRight animate_150ms">
+                        <input type="radio" id="opt_3" name="stp_1_select_option" value="One that’s organized, structured and has workplace policies set.">
+                        <label for="opt_3">Not very confident</label>
+                     </li>
+                     <li class="step_1 rounded-pill bg-white animate__animated animate__fadeInRight animate_200ms">
+                        <input type="radio" id="opt_4" name="stp_1_select_option" value="A place where everyone knows I’m the boss.">
+                        <label for="opt_4">Not at all confident</label>
+                     </li>
+                     <!-- <li class="step_1 rounded-pill bg-white animate__animated animate__fadeInRight animate_250ms">
+                        <input type="radio" id="opt_5" name="stp_1_select_option" value="A place where I’m the CEO">
+                        <label for="opt_5">A place where I’m the CEO</label>
+                     </li> -->
+                  </ul>
+               </div>
+            </div>
+            <!------------------------- Step-2 ----------------------------->
+            <div class="multisteps_form_panel">
+               <!-- Form-content -->
+               <span class="question_number text-uppercase d-flex justify-content-center align-items-center">Question 2/20</span>
+               <h1 class="question_title text-center">How do you typically handle conflicts in your relationships?</h1>
+               <!-- Form-items -->
+               <div class="form_items d-flex justify-content-center">
+                  <ul class="ps-0">
+                     <li class="step_2 rounded-pill bg-white animate__animated animate__fadeInRight animate_50ms">
+                        <input type="radio" id="opt_6" name="stp_2_select_option" value="the south Bassein and Tapti fields in the western offshore">
+                        <label for="opt_6">Open communication and resolution</label>
+                     </li>
+                     <li class="step_2 rounded-pill bg-white animate__animated animate__fadeInRight animate_100ms">
+                        <input type="radio" id="opt_7" name="stp_2_select_option" value="the gas fields in Tripura and Andhra Pradesh (KG Basin)">
+                        <label for="opt_7">Avoidance</label>
+                     </li>
+                     <li class="step_2 rounded-pill bg-white animate__animated animate__fadeInRight animate_150ms">
+                        <input type="radio" id="opt_8" name="stp_2_select_option" value="both (a) and (b)">
+                        <label for="opt_8">Aggression</label>
+                     </li>
+                     <li class="step_2 rounded-pill bg-white animate__animated animate__fadeInRight animate_200ms">
+                        <input type="radio" id="opt_9" name="stp_2_select_option" value="Iran, Iraq, Saudi Arabia, Kuwait">
+                        <label for="opt_9">Seeking mediation</label>
+                     </li>
+                     <li class="step_2 rounded-pill bg-white animate__animated animate__fadeInRight animate_250ms">
+                        <input type="radio" id="opt_10" name="stp_2_select_option" value="None of the above">
+                        <label for="opt_10">Other</label>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <!------------------------- Step-3 ----------------------------->
+            <div class="multisteps_form_panel">
+               <!-- Form-content -->
+               <span class="question_number text-uppercase d-flex justify-content-center align-items-center">Question 3/20</span>
+               <h1 class="question_title text-center">How comfortable you with expressing and sharing your emotions with your partner or close friends?</h1>
+               <!-- Form-items -->
+               <div class="form_items d-flex justify-content-center">
+                  <ul class="ps-0">
+                     <li class="step_3 rounded-pill bg-white animate__animated animate__fadeInRight animate_50ms">
+                        <input type="radio" id="opt_11" name="stp_3_select_option" value="is the natural satellite of earth">
+                        <label for="opt_11">Very comfortable</label>
+                     </li>
+                     <li class="step_3 rounded-pill bg-white animate__animated animate__fadeInRight animate_100ms">
+                        <input type="radio" id="opt_12" name="stp_3_select_option" value="has no liquid water">
+                        <label for="opt_12">Somewhat comfortable</label>
+                     </li>
+                     <li class="step_3 rounded-pill bg-white animate__animated animate__fadeInRight animate_150ms">
+                        <input type="radio" id="opt_13" name="stp_3_select_option" value="both (a) and (b)">
+                        <label for="opt_13">Neutral</label>
+                     </li>
+                     <li class="step_3 rounded-pill bg-white animate__animated animate__fadeInRight animate_200ms">
+                        <input type="radio" id="opt_14" name="stp_3_select_option" value="has no atmosphere">
+                        <label for="opt_14">Somewhat uncomfortable</label>
+                     </li>
+                     <li class="step_3 rounded-pill bg-white animate__animated animate__fadeInRight animate_250ms">
+                        <input type="radio" id="opt_15" name="stp_3_select_option" value="All of the above">
+                        <label for="opt_15">Very uncomfortable</label>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <!------------------------- Step-4 ----------------------------->
+            <div class="multisteps_form_panel">
+               <!-- Form-content -->
+               <span class="question_number text-uppercase d-flex justify-content-center align-items-center">Question 4/20</span>
+               <h1 class="question_title text-center">On a scale from 1 to 5, how satisfied are you with your current romantic relationship?</h1>
+               <!-- Form-items -->
+               <div class="form_items d-flex justify-content-center">
+                  <ul class="ps-0">
+                     <li class="step_4 rounded-pill bg-white animate__animated animate__fadeInRight animate_50ms">
+                        <input type="radio" id="opt_16" name="stp_4_select_option" value="rice, jowar, bajra">
+                        <label for="opt_16">being very dissatisfied</label>
+                     </li>
+                     <li class="step_4 rounded-pill bg-white animate__animated animate__fadeInRight animate_100ms">
+                        <input type="radio" id="opt_17" name="stp_4_select_option" value="ragi, maize">
+                        <label for="opt_17">being very satisfied</label>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <!------------------------- Step-5 ----------------------------->
+            <div class="multisteps_form_panel">
+               <!-- Form-content -->
+               <span class="question_number text-uppercase d-flex justify-content-center align-items-center">Question 5/20</span>
+               <h1 class="question_title text-center">To what extent do you feel socially isolated due to relationship issues?</h1>
+               <!-- Form-items -->
+               <div class="form_items d-flex justify-content-center">
+                  <ul class="ps-0">
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_50ms">
+                        <input type="radio" id="opt_21" name="stp_5_select_option" value="the outer portion of the moon's shadow">
+                        <label for="opt_21">Not at all</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_100ms">
+                        <input type="radio" id="opt_22" name="stp_5_select_option" value="formed by the tangent that intersects between the sun and the moon">
+                        <label for="opt_22">Slightly</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_150ms">
+                        <input type="radio" id="opt_23" name="stp_5_select_option" value="both (a) and (b)">
+                        <label for="opt_23">Moderately</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_200ms">
+                        <input type="radio" id="opt_24" name="stp_5_select_option" value="None of the above">
+                        <label for="opt_24">Significantly</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_250ms">
+                        <input type="radio" id="opt_25" name="stp_5_select_option" value="All of the above">
+                        <label for="opt_25">Extremely</label>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <!------------------------- Step-6----------------------------->
+            <div class="multisteps_form_panel">
+               <!-- Form-content -->
+               <span class="question_number text-uppercase d-flex justify-content-center align-items-center">Question 6/20</span>
+               <h1 class="question_title text-center">Have you experienced trust issues in your current or past relationships, and how do you cope with them?</h1>
+               <!-- Form-items -->
+               <div class="form_items d-flex justify-content-center">
+                  <ul class="ps-0">
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_50ms">
+                        <input type="radio" id="opt_21" name="stp_5_select_option" value="the outer portion of the moon's shadow">
+                        <label for="opt_21">No trust issues</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_100ms">
+                        <input type="radio" id="opt_22" name="stp_5_select_option" value="formed by the tangent that intersects between the sun and the moon">
+                        <label for="opt_22">Rarely</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_150ms">
+                        <input type="radio" id="opt_23" name="stp_5_select_option" value="both (a) and (b)">
+                        <label for="opt_23">Occasionally</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_200ms">
+                        <input type="radio" id="opt_24" name="stp_5_select_option" value="None of the above">
+                        <label for="opt_24">Frequently</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_250ms">
+                        <input type="radio" id="opt_25" name="stp_5_select_option" value="All of the above">
+                        <label for="opt_25">Always</label>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <!------------------------- Step-7----------------------------->
+            <div class="multisteps_form_panel">
+               <!-- Form-content -->
+               <span class="question_number text-uppercase d-flex justify-content-center align-items-center">Question 7/20</span>
+               <h1 class="question_title text-center">How well do you establish and maintain personal boundaries in your relationships?</h1>
+               <!-- Form-items -->
+               <div class="form_items d-flex justify-content-center">
+                  <ul class="ps-0">
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_50ms">
+                        <input type="radio" id="opt_21" name="stp_5_select_option" value="the outer portion of the moon's shadow">
+                        <label for="opt_21">Very well</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_100ms">
+                        <input type="radio" id="opt_22" name="stp_5_select_option" value="formed by the tangent that intersects between the sun and the moon">
+                        <label for="opt_22">Moderately well</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_150ms">
+                        <input type="radio" id="opt_23" name="stp_5_select_option" value="both (a) and (b)">
+                        <label for="opt_23">Neutral</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_200ms">
+                        <input type="radio" id="opt_24" name="stp_5_select_option" value="None of the above">
+                        <label for="opt_24">Not very well</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_250ms">
+                        <input type="radio" id="opt_25" name="stp_5_select_option" value="All of the above">
+                        <label for="opt_25">Not at all well</label>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <!------------------------- Step-8----------------------------->
+            <div class="multisteps_form_panel">
+               <!-- Form-content -->
+               <span class="question_number text-uppercase d-flex justify-content-center align-items-center">Question 8/20</span>
+               <h1 class="question_title text-center">To what extent do relationship issues impact your academic performance?</h1>
+               <!-- Form-items -->
+               <div class="form_items d-flex justify-content-center">
+                  <ul class="ps-0">
+                     <li class="active step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_50ms">
+                        <input type="radio" id="opt_21" name="stp_5_select_option" value="the outer portion of the moon's shadow">
+                        <label for="opt_21">Not at all</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_100ms">
+                        <input type="radio" id="opt_22" name="stp_5_select_option" value="formed by the tangent that intersects between the sun and the moon">
+                        <label for="opt_22">Slightly</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_150ms">
+                        <input type="radio" id="opt_23" name="stp_5_select_option" value="both (a) and (b)">
+                        <label for="opt_23">Moderately</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_200ms">
+                        <input type="radio" id="opt_24" name="stp_5_select_option" value="None of the above">
+                        <label for="opt_24">Significantly</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_250ms">
+                        <input type="radio" id="opt_25" name="stp_5_select_option" value="All of the above">
+                        <label for="opt_25">Extremely</label>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <!------------------------- Step-9----------------------------->
+            <div class="multisteps_form_panel">
+               <!-- Form-content -->
+               <span class="question_number text-uppercase d-flex justify-content-center align-items-center">Question 9/20</span>
+               <h1 class="question_title text-center">How would you describe the level of support you receive from friends or family regarding your relationship challenges?</h1>
+               <!-- Form-items -->
+               <div class="form_items d-flex justify-content-center">
+                  <ul class="ps-0">
+                     <li class="active step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_50ms">
+                        <input type="radio" id="opt_21" name="stp_5_select_option" value="the outer portion of the moon's shadow">
+                        <label for="opt_21">Strong support</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_100ms">
+                        <input type="radio" id="opt_22" name="stp_5_select_option" value="formed by the tangent that intersects between the sun and the moon">
+                        <label for="opt_22">Moderate support</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_150ms">
+                        <input type="radio" id="opt_23" name="stp_5_select_option" value="both (a) and (b)">
+                        <label for="opt_23">Neutral</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_200ms">
+                        <input type="radio" id="opt_24" name="stp_5_select_option" value="None of the above">
+                        <label for="opt_24">Limited support</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_250ms">
+                        <input type="radio" id="opt_25" name="stp_5_select_option" value="All of the above">
+                        <label for="opt_25">Limited support</label>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <!------------------------- Step-10----------------------------->
+            <div class="multisteps_form_panel">
+               <!-- Form-content -->
+               <span class="question_number text-uppercase d-flex justify-content-center align-items-center">Question 10/20</span>
+               <h1 class="question_title text-center">How optimistic are you about the future of your current relationship?</h1>
+               <!-- Form-items -->
+               <div class="form_items d-flex justify-content-center">
+                  <ul class="ps-0">
+                     <li class="active step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_50ms">
+                        <input type="radio" id="opt_21" name="stp_5_select_option" value="the outer portion of the moon's shadow">
+                        <label for="opt_21">Very optimistic</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_100ms">
+                        <input type="radio" id="opt_22" name="stp_5_select_option" value="formed by the tangent that intersects between the sun and the moon">
+                        <label for="opt_22">Optimistic</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_150ms">
+                        <input type="radio" id="opt_23" name="stp_5_select_option" value="both (a) and (b)">
+                        <label for="opt_23">Neutral</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_200ms">
+                        <input type="radio" id="opt_24" name="stp_5_select_option" value="None of the above">
+                        <label for="opt_24">Pessimistic</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_250ms">
+                        <input type="radio" id="opt_25" name="stp_5_select_option" value="All of the above">
+                        <label for="opt_25">Very pessimistic</label>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <!------------------------- Step-11----------------------------->
+            <div class="multisteps_form_panel">
+               <!-- Form-content -->
+               <span class="question_number text-uppercase d-flex justify-content-center align-items-center">Question 11/20</span>
+               <h1 class="question_title text-center">I was very anxious, worried or scared about a lot of things in my life.</h1>
+               <!-- Form-items -->
+               <div class="form_items d-flex justify-content-center">
+                  <ul class="ps-0">
+                     <li class="active step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_50ms">
+                        <input type="radio" id="opt_21" name="stp_5_select_option" value="the outer portion of the moon's shadow">
+                        <label for="opt_21">Never</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_100ms">
+                        <input type="radio" id="opt_22" name="stp_5_select_option" value="formed by the tangent that intersects between the sun and the moon">
+                        <label for="opt_22">A few times</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_150ms">
+                        <input type="radio" id="opt_23" name="stp_5_select_option" value="both (a) and (b)">
+                        <label for="opt_23">Sometimes</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_200ms">
+                        <input type="radio" id="opt_24" name="stp_5_select_option" value="None of the above">
+                        <label for="opt_24">Often</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_250ms">
+                        <input type="radio" id="opt_25" name="stp_5_select_option" value="All of the above">
+                        <label for="opt_25">Constantly</label>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <!------------------------- Step-12----------------------------->
+            <div class="multisteps_form_panel">
+               <!-- Form-content -->
+               <span class="question_number text-uppercase d-flex justify-content-center align-items-center">Question 12/20</span>
+               <h1 class="question_title text-center">I felt that my worry was out of my control.</h1>
+               <!-- Form-items -->
+               <div class="form_items d-flex justify-content-center">
+                  <ul class="ps-0">
+                     <li class="active step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_50ms">
+                        <input type="radio" id="opt_21" name="stp_5_select_option" value="the outer portion of the moon's shadow">
+                        <label for="opt_21">Never</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_100ms">
+                        <input type="radio" id="opt_22" name="stp_5_select_option" value="formed by the tangent that intersects between the sun and the moon">
+                        <label for="opt_22">A few times</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_150ms">
+                        <input type="radio" id="opt_23" name="stp_5_select_option" value="both (a) and (b)">
+                        <label for="opt_23">Sometimes</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_200ms">
+                        <input type="radio" id="opt_24" name="stp_5_select_option" value="None of the above">
+                        <label for="opt_24">Often</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_250ms">
+                        <input type="radio" id="opt_25" name="stp_5_select_option" value="All of the above">
+                        <label for="opt_25">Constantly</label>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <!------------------------- Step-13----------------------------->
+            <div class="multisteps_form_panel">
+               <!-- Form-content -->
+               <span class="question_number text-uppercase d-flex justify-content-center align-items-center">Question 13/20</span>
+               <h1 class="question_title text-center">I felt restless, agitated, frantic, or tense.</h1>
+               <!-- Form-items -->
+               <div class="form_items d-flex justify-content-center">
+                  <ul class="ps-0">
+                     <li class="active step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_50ms">
+                        <input type="radio" id="opt_21" name="stp_5_select_option" value="the outer portion of the moon's shadow">
+                        <label for="opt_21">Never</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_100ms">
+                        <input type="radio" id="opt_22" name="stp_5_select_option" value="formed by the tangent that intersects between the sun and the moon">
+                        <label for="opt_22">A few times</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_150ms">
+                        <input type="radio" id="opt_23" name="stp_5_select_option" value="both (a) and (b)">
+                        <label for="opt_23">Sometimes</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_200ms">
+                        <input type="radio" id="opt_24" name="stp_5_select_option" value="None of the above">
+                        <label for="opt_24">Often</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_250ms">
+                        <input type="radio" id="opt_25" name="stp_5_select_option" value="All of the above">
+                        <label for="opt_25">Constantly</label>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <!------------------------- Step-14----------------------------->
+            <div class="multisteps_form_panel">
+               <!-- Form-content -->
+               <span class="question_number text-uppercase d-flex justify-content-center align-items-center">Question 14/20</span>
+               <h1 class="question_title text-center">I had trouble sleeping - I could not fall or stay asleep, and/or didnt feel well-rested when I woke up.</h1>
+               <!-- Form-items -->
+               <div class="form_items d-flex justify-content-center">
+                  <ul class="ps-0">
+                     <li class="active step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_50ms">
+                        <input type="radio" id="opt_21" name="stp_5_select_option" value="the outer portion of the moon's shadow">
+                        <label for="opt_21">Never</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_100ms">
+                        <input type="radio" id="opt_22" name="stp_5_select_option" value="formed by the tangent that intersects between the sun and the moon">
+                        <label for="opt_22">A few times</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_150ms">
+                        <input type="radio" id="opt_23" name="stp_5_select_option" value="both (a) and (b)">
+                        <label for="opt_23">Sometimes</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_200ms">
+                        <input type="radio" id="opt_24" name="stp_5_select_option" value="None of the above">
+                        <label for="opt_24">Often</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_250ms">
+                        <input type="radio" id="opt_25" name="stp_5_select_option" value="All of the above">
+                        <label for="opt_25">Constantly</label>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <!------------------------- Step-15----------------------------->
+            <div class="multisteps_form_panel">
+               <!-- Form-content -->
+               <span class="question_number text-uppercase d-flex justify-content-center align-items-center">Question 15/20</span>
+               <h1 class="question_title text-center">My heart would skip beat, was pounding, or my heart rate increased.</h1>
+               <!-- Form-items -->
+               <div class="form_items d-flex justify-content-center">
+                  <ul class="ps-0">
+                     <li class="active step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_50ms">
+                        <input type="radio" id="opt_21" name="stp_5_select_option" value="the outer portion of the moon's shadow">
+                        <label for="opt_21">Not at all</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_100ms">
+                        <input type="radio" id="opt_22" name="stp_5_select_option" value="formed by the tangent that intersects between the sun and the moon">
+                        <label for="opt_22">Mild</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_150ms">
+                        <input type="radio" id="opt_23" name="stp_5_select_option" value="both (a) and (b)">
+                        <label for="opt_23">Moderate</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_200ms">
+                        <input type="radio" id="opt_24" name="stp_5_select_option" value="None of the above">
+                        <label for="opt_24">Severe</label>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <!------------------------- Step-16----------------------------->
+            <div class="multisteps_form_panel">
+               <!-- Form-content -->
+               <span class="question_number text-uppercase d-flex justify-content-center align-items-center">Question 16/20</span>
+               <h1 class="question_title text-center">I was sweating profusely.</h1>
+               <!-- Form-items -->
+               <div class="form_items d-flex justify-content-center">
+                  <ul class="ps-0">
+                     <li class="active step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_50ms">
+                        <input type="radio" id="opt_21" name="stp_5_select_option" value="the outer portion of the moon's shadow">
+                        <label for="opt_21">Not at all</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_100ms">
+                        <input type="radio" id="opt_22" name="stp_5_select_option" value="formed by the tangent that intersects between the sun and the moon">
+                        <label for="opt_22">Mild</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_150ms">
+                        <input type="radio" id="opt_23" name="stp_5_select_option" value="both (a) and (b)">
+                        <label for="opt_23">Moderate</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_200ms">
+                        <input type="radio" id="opt_24" name="stp_5_select_option" value="None of the above">
+                        <label for="opt_24">Severe</label>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <!------------------------- Step-17----------------------------->
+            <div class="multisteps_form_panel">
+               <!-- Form-content -->
+               <span class="question_number text-uppercase d-flex justify-content-center align-items-center">Question 17/20</span>
+               <h1 class="question_title text-center">My hands, legs or entire body were shaking, trembling, or felt tingly.</h1>
+               <!-- Form-items -->
+               <div class="form_items d-flex justify-content-center">
+                  <ul class="ps-0">
+                     <li class="active step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_50ms">
+                        <input type="radio" id="opt_21" name="stp_5_select_option" value="the outer portion of the moon's shadow">
+                        <label for="opt_21">Not at all</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_100ms">
+                        <input type="radio" id="opt_22" name="stp_5_select_option" value="formed by the tangent that intersects between the sun and the moon">
+                        <label for="opt_22">Mild</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_150ms">
+                        <input type="radio" id="opt_23" name="stp_5_select_option" value="both (a) and (b)">
+                        <label for="opt_23">Moderate</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_200ms">
+                        <input type="radio" id="opt_24" name="stp_5_select_option" value="None of the above">
+                        <label for="opt_24">Severe</label>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <!------------------------- Step-18----------------------------->
+            <div class="multisteps_form_panel">
+               <!-- Form-content -->
+               <span class="question_number text-uppercase d-flex justify-content-center align-items-center">Question 18/20</span>
+               <h1 class="question_title text-center">I had difficulty breathing or swallowing.</h1>
+               <!-- Form-items -->
+               <div class="form_items d-flex justify-content-center">
+                  <ul class="ps-0">
+                     <li class="active step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_50ms">
+                        <input type="radio" id="opt_21" name="stp_5_select_option" value="the outer portion of the moon's shadow">
+                        <label for="opt_21">Not at all</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_100ms">
+                        <input type="radio" id="opt_22" name="stp_5_select_option" value="formed by the tangent that intersects between the sun and the moon">
+                        <label for="opt_22">Mild</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_150ms">
+                        <input type="radio" id="opt_23" name="stp_5_select_option" value="both (a) and (b)">
+                        <label for="opt_23">Moderate</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_200ms">
+                        <input type="radio" id="opt_24" name="stp_5_select_option" value="None of the above">
+                        <label for="opt_24">Severe</label>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <!------------------------- Step-19----------------------------->
+            <div class="multisteps_form_panel">
+               <!-- Form-content -->
+               <span class="question_number text-uppercase d-flex justify-content-center align-items-center">Question 19/20</span>
+               <h1 class="question_title text-center">I had pain in my chest, almost like I was having a heart attack.</h1>
+               <!-- Form-items -->
+               <div class="form_items d-flex justify-content-center">
+                  <ul class="ps-0">
+                     <li class="active step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_50ms">
+                        <input type="radio" id="opt_21" name="stp_5_select_option" value="the outer portion of the moon's shadow">
+                        <label for="opt_21">Not at all</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_100ms">
+                        <input type="radio" id="opt_22" name="stp_5_select_option" value="formed by the tangent that intersects between the sun and the moon">
+                        <label for="opt_22">Mild</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_150ms">
+                        <input type="radio" id="opt_23" name="stp_5_select_option" value="both (a) and (b)">
+                        <label for="opt_23">Moderate</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_200ms">
+                        <input type="radio" id="opt_24" name="stp_5_select_option" value="None of the above">
+                        <label for="opt_24">Severe</label>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <!------------------------- Step-20----------------------------->
+            <div class="multisteps_form_panel">
+               <!-- Form-content -->
+               <span class="question_number text-uppercase d-flex justify-content-center align-items-center">Question 20/20</span>
+               <h1 class="question_title text-center">I felt sick to my stomach, like I was going to throw up, or had diarrhea.</h1>
+               <!-- Form-items -->
+               <div class="form_items d-flex justify-content-center">
+                  <ul class="ps-0">
+                     <li class="active step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_50ms">
+                        <input type="radio" id="opt_21" name="stp_5_select_option" value="the outer portion of the moon's shadow">
+                        <label for="opt_21">Not at all</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_100ms">
+                        <input type="radio" id="opt_22" name="stp_5_select_option" value="formed by the tangent that intersects between the sun and the moon">
+                        <label for="opt_22">Mild</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_150ms">
+                        <input type="radio" id="opt_23" name="stp_5_select_option" value="both (a) and (b)">
+                        <label for="opt_23">Moderate</label>
+                     </li>
+                     <li class="step_5 rounded-pill bg-white animate__animated animate__fadeInRight animate_200ms">
+                        <input type="radio" id="opt_24" name="stp_5_select_option" value="None of the above">
+                        <label for="opt_24">Severe</label>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            
+
+
+
+            <!---------- Form Button ---------->
+            <div class="form_btn text-center ms-5 mt-5">
+               <button type="button" class="f_btn text-uppercase rounded-pill border-0" id="prevBtn" onclick="nextPrev(-1)">Last Question</button>
+               <button type="button" class="f_btn text-uppercase rounded-pill border-0" id="nextBtn" onclick="nextPrev(1)">Next Question</button>
+            </div>
+         </form>
+      </div>
+   </div>
+
+
+
+
+
+   <!-- jQuery-js include -->
+   <script src="assets/js/jquery-3.6.0.min.js"></script>
+   <!-- Bootstrap-js include -->
+   <script src="assets/js/bootstrap.min.js"></script>
+   <!-- jQuery-validate-js include -->
+   <script src="assets/js/jquery.validate.min.js"></script>
+   <!-- Custom-js include -->
+   <script src="assets/js/script.js"></script>
+</body>
+</html>
